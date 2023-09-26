@@ -14,5 +14,9 @@ public class Executer {
         Java.subscribe(Blal);
 
         Java.updateAvailability(true);
+
+        Java.unsubscribe(Mohammed);
+
+        Java.updateAvailability(false);
     }
 }
